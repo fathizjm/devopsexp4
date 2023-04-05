@@ -8,7 +8,8 @@ pipeline {
     }
     stage('copy php code on xampp server') {
       steps {
-        bat 'xcopy /s "*" "C:\xampp\htdocs\DevOps" /Y'
+        bat 'xcopy /s "*" "C:/xampp/htdocs/DevOps" /Y'
+
       }
     }
       
